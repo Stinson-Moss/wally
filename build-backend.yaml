@@ -11,6 +11,7 @@ steps:
         "--region", "us-central1",
         "--platform", "managed",
         "--command", "./launch",
+        "--port", "8000",
         "--allow-unauthenticated",
       ]
 timeout: 900s
